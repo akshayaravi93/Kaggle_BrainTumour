@@ -130,10 +130,10 @@ dataset_base = Config({
 my_custom_dataset = dataset_base.copy({
     'name': 'My Dataset',
 
-    'train_images': '/kaggle/input/sartorius-cell-instance-segmentation/train',
+    'train_images': '/kaggle/input/sartorius-cell-instance-segmentation/train/',
     'train_info':   '/kaggle/input/sartorius-coco-dataset-notebook/train_dataset.json',
 
-    'valid_images': '/kaggle/input/sartorius-cell-instance-segmentation/train',
+    'valid_images': '/kaggle/input/sartorius-cell-instance-segmentation/train/',
     'valid_info':   '/kaggle/input/sartorius-coco-dataset-notebook/val_dataset.json',
 
     'has_gt': True,
